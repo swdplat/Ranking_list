@@ -67,7 +67,7 @@
 
 .container .rank_list .rank_item .rank_inner .rank_account {
   background-color: #cde5ff;
-  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%); */
 }
 
 .container .rank_list .rank_item .rank_inner .rank_account .correct {
@@ -137,7 +137,7 @@
 
 .container .rank_list .rank_item_2 .rank_inner .rank_account {
   background-color: #cde5ff;
-  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%);
+  /* clip-path: polygon(8% 0, 100% 0, 100% 100%, 0 100%); */
 }
 
 .container .rank_list .rank_item_2 .rank_inner .rank_account .correct {
