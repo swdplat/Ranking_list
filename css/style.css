@@ -15,88 +15,26 @@
 }
 
 .container .rank_list .rank_item {
-  /* background-color: #ffd40f; */
   margin-bottom: 5px;
   justify-self: flex-end;
   max-width: 500px;
   border: 2px solid #fff;
-  /* background-image: url(../image/資產\ 101@4x.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 /* 背景圖樣式 */
 .container .rank_list .item_bg_1 {
-  background-image: url(../image/item-1.png);
+  background-image: url(../image/item_bg1.png);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .container .rank_list .item_bg_2 {
-  background-image: url(../image/item-2.png);
+  background-image: url(../image/item_bg2.png);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container .rank_list .item_bg_3{
-    background-image: url(../image/item-3.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_4{
-    background-image: url(../image/item-4.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_5{
-    background-image: url(../image/item-5.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_6{
-    background-image: url(../image/item-6.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_7{
-    background-image: url(../image/item-7.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_8{
-    background-image: url(../image/item-8.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_9{
-    background-image: url(../image/item-9.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container .rank_list .item_bg_10{
-    background-image: url(../image/item-10.png);
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 /* 排行榜名次第一種樣式 */
 .container .rank_list .rank_item .rank_inner {
@@ -111,6 +49,10 @@
 
 .container .rank_list .rank_item .rank_inner .rank_number .number {
   width: 80px;
+  font-size: 65px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 3px 2px 1px #000000;
 }
 
 .container .rank_list .rank_item .rank_inner .rank_info {
@@ -119,7 +61,6 @@
 }
 
 .container .rank_list .rank_item .rank_inner .rank_info .rank_phone {
-  /* background-color: #ffd40f; */
   text-align: center;
   font-size: 25px;
   font-weight: 600;
@@ -129,7 +70,6 @@
 }
 
 .container .rank_list .rank_item .rank_inner .rank_info .rank_address {
-  /* background-color: #ffd40f; */
   text-align: center;
   font-size: 25px;
   font-weight: 500;
@@ -159,7 +99,6 @@
 
 /* 排行榜名次 第二種樣式 */
 .container .rank_list .rank_item_2 {
-  /* background-color: #ffe7ef; */
   margin-bottom: 5px;
   justify-self: flex-end;
   max-width: 500px;
@@ -178,6 +117,10 @@
 
 .container .rank_list .rank_item_2 .rank_inner .rank_number_2 .number_2 {
   width: 80px;
+  font-size: 65px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 3px 2px 1px #000000;
 }
 
 .container .rank_list .rank_item_2 .rank_inner .rank_info {
