@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>排行榜更新</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="rank_list">
+          <div class="rank_item  item_bg_1">
+            <div class="rank_inner">
+              <div class="rank_number">
+                <div class="number"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone phone-number" id="">0922656555</div>
+                <div class="rank_address" id="">台北忠孝東路 - 家樂福超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">50</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item_2 item_bg_2">
+            <div class="rank_inner">
+              <div class="rank_number_2">
+                <div class="number_2"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone_2 phone-number" id="">0955655576</div>
+                <div class="rank_address_2" id="">台北新生北路 - ok便利超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">48</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item item_bg_3">
+            <div class="rank_inner">
+              <div class="rank_number">
+                <div class="number"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone phone-number" id="">0977676654</div>
+                <div class="rank_address" id="">台北忠孝新生 - 全聯好超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">45</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item_2 item_bg_4">
+            <div class="rank_inner">
+              <div class="rank_number_2">
+                <div class="number_2"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone_2 phone-number" id="">0911989876</div>
+                <div class="rank_address_2" id="">台北延平北路 - ok便利超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">45</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item item_bg_5">
+            <div class="rank_inner">
+              <div class="rank_number">
+                <div class="number"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone phone-number" id="">0977676654</div>
+                <div class="rank_address" id="">台北忠孝新生 - 全聯好超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">43</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item_2 item_bg_6">
+            <div class="rank_inner">
+              <div class="rank_number_2">
+                <div class="number_2"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone_2 phone-number" id="">0911989876</div>
+                <div class="rank_address_2" id="">台北延平北路 - ok便利超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">39</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item item_bg_7">
+            <div class="rank_inner">
+              <div class="rank_number">
+                <div class="number"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone phone-number" id="">0977676654</div>
+                <div class="rank_address" id="">台北忠孝新生 - 全聯好超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">38</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item_2 item_bg_8">
+            <div class="rank_inner">
+              <div class="rank_number_2">
+                <div class="number_2"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone_2 phone-number" id="">0911989876</div>
+                <div class="rank_address_2" id="">台北延平北路 - ok便利超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">33</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item item_bg_9">
+            <div class="rank_inner">
+              <div class="rank_number">
+                <div class="number"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone phone-number" id="">0977676654</div>
+                <div class="rank_address" id="">台北忠孝新生 - 全聯好超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">32</div>
+              </div>
+            </div>
+          </div>
+          <div class="rank_item_2 item_bg_10">
+            <div class="rank_inner">
+              <div class="rank_number_2">
+                <div class="number_2"></div>
+              </div>
+              <div class="rank_info">
+                <div class="rank_phone_2 phone-number" id="">0911989876</div>
+                <div class="rank_address_2" id="">台北延平北路 - ok便利超市</div>
+              </div>
+              <div class="rank_account">
+                <div class="question" id="">25</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".phone-number").each(function () {
+          var fullNumber = $(this).text().trim();
+          if (fullNumber.length === 10) {
+            var masked =
+              fullNumber.substr(0, 4) + "***" + fullNumber.substr(7, 3);
+            $(this).text(masked);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
